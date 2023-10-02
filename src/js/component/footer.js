@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import logo from "../../img/LOGO_GUEMAC_PNG.png";
+
+import "../../styles/home.css";
 
 export const Footer = () => (
-  <footer className="footer mt-auto py-3 text-center">
+  <footer className="footer mb-0 py-3 text-center">
+    <img src={logo} className="float-start ms-5" />
     <p>
-      Made with <i className="fa fa-heart text-danger" /> by{" "}
       <a href="http://www.pymeclarochile.cl">Guemac Distribuidor Autorizado</a>
     </p>
   </footer>
