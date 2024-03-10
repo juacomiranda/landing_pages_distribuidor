@@ -7,7 +7,7 @@ export const Footer = () => (
   <footer className="footer py-3 text-center">
     <img src={logo} className="float-start ms-5" />
     <p>
-      <a href="http://www.pymeclarochile.cl">Distribuidor Autorizado</a>
+      <a href="http://www.pymeclarochile.cl">Todos los derechos reservados <br></br>Distribuidor Autorizado</a>
     </p>
   </footer>
 );
