@@ -2,6 +2,7 @@ import React from "react";
 import carrusel from "../../img/carrusel1.png";
 import "../../styles/home.css";
 
+
 export const Home = () => (
   <div id="carouselExampleCaptions" className="carousel slide">
     <div className="carousel-indicators">
@@ -68,4 +69,5 @@ export const Home = () => (
       <span className="visually-hidden">Next</span>
     </button>
   </div>
+
 );
