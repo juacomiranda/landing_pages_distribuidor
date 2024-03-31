@@ -30,7 +30,6 @@ const Layout = () => {
           </Routes>
           <Planes />
           <Planes />
-          <Planes />
           <Footer />
         </ScrollToTop>
       </BrowserRouter>
