@@ -1,4 +1,11 @@
 .card {
-  width: 18rem;
+  width: auto;
+  margin: 10px;
   
 }
+
+.oculto {
+  display: none;
+}
+
+

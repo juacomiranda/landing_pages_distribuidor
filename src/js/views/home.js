@@ -5,7 +5,7 @@ import carrusel_3 from "../../img/Carrusel3.png";
 import "../../styles/home.css";
 
 export const Home = () => (
-  <div className="container mt-3">
+  <div className="container-fluid">
     <div id="carouselExampleCaptions" className="carousel slide">
       <div className="carousel-indicators">
         <button

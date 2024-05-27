@@ -4,7 +4,7 @@ import "../../styles/index.css";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar bg-danger border-bottom border-body">
+    <nav className="navbar bg-danger border-body">
       <div className="container">
         <a className="navbar-brand link-light" href="#">
           <img

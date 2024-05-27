@@ -5,6 +5,8 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
+import { BarraPlanes } from "./views/barraplanes";
+import { Planes2 } from "./views/planes2";
 import { Planes } from "./views/planes";
 import injectContext from "./store/appContext";
 
@@ -28,8 +30,9 @@ const Layout = () => {
             <Route path="/single/:theid" element={<Single />} />
             <Route path="*" element={<h1>Not found!</h1>} />
           </Routes>
+          <BarraPlanes />
           <Planes />
-          <Planes />
+          <Planes2 />
           <Footer />
         </ScrollToTop>
       </BrowserRouter>
