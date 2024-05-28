@@ -25,8 +25,10 @@ export const CardGB = (props) => (
               </Accordion.Item>
             </Accordion>
           </li>
-          <li href="https://wa.me/message/IJQXW4CKEN5YJ1" className="btn btn-danger">
+          <li> 
+          <a href="https://wa.me/message/DUFBJKMPF6G3C1" className="btn btn-danger ">
             Contratar Ahora
+          </a>
           </li>
         </ul>
        </div> 
