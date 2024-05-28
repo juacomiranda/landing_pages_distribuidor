@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../../img/LOGO_GUEMAC_PNG.png";
 import "../../styles/planes.css";
+import Accordion from 'react-bootstrap/Accordion';
+
+
 
 
 export const Cards = (props) => (
@@ -15,21 +18,15 @@ export const Cards = (props) => (
             Oferta exclusiva para portabilidad
           </li> 
           <li className="list-group-item">
-          <div className="accordion accordion-flush" id="accordionFlushExample">
-            <div className ="accordion-item">
-              <h2 className  ="accordion-header">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  <p className="text-info">Ver detalles del plan</p>
-                </button>
-              </h2>
-            <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div className="accordion-body">
-                {props.ACORDEON}
-              </div>
-            </div>
-            </div>
-          </div>
-            </li>
+          <Accordion>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>Ver detalles del Plan</Accordion.Header>
+                <Accordion.Body>
+                  {props.ACORDEON}
+                </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          </li>
           <li href="https://wa.me/message/IJQXW4CKEN5YJ1" className="btn btn-danger">
             Contratar Ahora
           </li>
