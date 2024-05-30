@@ -11,7 +11,6 @@
 		"build": "webpack --config webpack.prod.js",
 		"deploy": "node deploy-to-github.js"
 	},
-	"homepage": "https://promocionesclarochile.cl/",
 	"author": {
 		"name": "Alejandro Sanchez",
 		"url": "http://alesanchezr.com/"
